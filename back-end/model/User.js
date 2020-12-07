@@ -18,8 +18,9 @@ const userSchema = mongooes.Schema({
     type: String,
     maxlength: 50,
   },
+  /* 계정 권한 */
   role: {
-    /* 계정 권한 */ type: Number,
+    type: Number,
     default: 0,
   },
   image: String,
